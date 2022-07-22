@@ -1,0 +1,29 @@
+{
+  "name": "@codecb/tree-traverse",
+  "version": "0.0.1",
+  "type": "module",
+  "license": "MIT",
+  "author": {
+    "email": "icodemyownlife@gmail.com",
+    "name": "ICodeMyOwnLife"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/code-cb/tree-traverse.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@codecb/prettierrc": "0.0.1",
+    "@codecb/tsconfigs": "0.0.8",
+    "prettier": "2.7.1",
+    "typescript": "4.7.4"
+  },
+  "prettier": "@codecb/prettierrc"
+}
