@@ -1,0 +1,7 @@
+{
+  "extends": "@codecb/tsconfigs/tsconfig.node-lib-legacy",
+  "compilerOptions": {
+    "outDir": "dist/cjs"
+  },
+  "include": ["src"]
+}
